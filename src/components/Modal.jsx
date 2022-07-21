@@ -34,11 +34,11 @@ const Modal = () => {
     return (
         <div className="modal">
             <div className="modal__contact">
-                <FontAwesomeIcon icon="fa-solid fa-x" onClick={contactClose}/>
+                <FontAwesomeIcon icon="fa-solid fa-x" className="modal__closer" onClick={contactClose}/>
                 <h3 className="modal__title">
                     Let's have a chat!
                 </h3>
-                <h3 class="modal__sub-title">
+                <h3 className="modal__sub-title">
                     I'm currently open to new opportunities.
                 </h3>
                 <form ref={form} className="contact__form" onSubmit={contact}>

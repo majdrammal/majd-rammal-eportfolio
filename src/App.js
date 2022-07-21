@@ -10,11 +10,23 @@ import Modal from './components/Modal';
 
 function App() {
 
+  let isNavOpen = false
+    function navBarOpen() {
+        if (!isNavOpen) {
+            document.body.classList += ' nav__bar--open'
+            isNavOpen = !isNavOpen
+        }
+        else {
+            document.body.classList.remove('nav__bar--open')
+            isNavOpen = !isNavOpen
+        }
+    }
+
   return (
     <Router>
       <div className="body">
-        <NavBar />
-        <Nav />
+        <NavBar navBarOpen={navBarOpen}/>
+        <Nav navBarOpen={navBarOpen}/>
         <Modal />
         <Routes>
                 <Route exact path="/" element={<Home />} />

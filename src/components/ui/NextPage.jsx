@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const NextPage = ({ text }) => {
     return (
-        <div class="next__page both__page">
-            <h2 class="both__page--text">{text}</h2>
+        <div className="next__page both__page">
+            <h2 className="both__page--text">{text}</h2>
             {
                 text === 'Contact' ? ( 
                     <Link to='/' >

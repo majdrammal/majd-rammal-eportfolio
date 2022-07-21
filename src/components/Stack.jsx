@@ -9,7 +9,7 @@ const Stack = () => {
     return (
         <section id="stack">
             <div className="stack__container">
-                <h1 className="stack__title">Here is my <span class="blue">Tech Stack</span></h1>
+                <h1 className="stack__title">Here is my <span className="blue">Tech Stack</span></h1>
                 <div className="stack__techs">
                     <figure className="tech__wrapper">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" className="tech__img" />
