@@ -7,6 +7,7 @@ import About from './components/About';
 import Stack from './components/Stack';
 import Projects from './components/Projects';
 import Modal from './components/Modal';
+import BackgroundAnimations from './components/ui/BackgroundAnimations';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <NavBar navBarOpen={navBarOpen}/>
         <Nav navBarOpen={navBarOpen}/>
         <Modal />
+        <BackgroundAnimations />
         <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/About" element={<About />} />
