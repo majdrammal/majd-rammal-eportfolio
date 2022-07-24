@@ -26,18 +26,22 @@ const About = () => {
                     </p>
                     <button className="button about__more" onClick={moreAboutMe}>Tell Me More</button>
                 </div>
-                <div className="about__more--modal">
-                <p className="about__para">
-                        I'm a 21 year-old Lebanese Software Engineering student with a 
-                        passion for developing websites. I'm currently a fourth-year 
-                        student at the American University of Beirut.
-                </p>
-                <p className="about__para">
-                    I look forward to becoming a Frontend Software Engineer
-                    and solving difficult engineering problems every day 
-                    with a team of like-minded individuals.
-                </p>
-                <FontAwesomeIcon icon="fa-solid fa-x" onClick={moreAboutMeClose}/>
+            </div>
+            <div className="about__modal">
+                <div className="about__modal--container">
+                    <FontAwesomeIcon icon="fa-solid fa-x" className="modal__closer" onClick={moreAboutMeClose}/>
+                    <h3 className="modal__title about__modal--title">
+                        <b>
+                            Here's more <span className="blue">About Me</span>
+                        </b>
+                            
+                    </h3>
+                    <h3 className="modal__sub-title about__modal--sub-title">
+                        I'm a 21 year-old Lebanese Software Engineering student with a passion for developing websites. I'm currently a fourth-year student at the American University of Beirut. 
+                    </h3>
+                    <h3 className="modal__sub-title about__modal--sub-title">
+                        I look forward to becoming a Frontend Software Engineer and solving difficult engineering problems every day with a team of like-minded individuals.
+                    </h3>
                 </div>
             </div>
             <NextPage text='Stack' />

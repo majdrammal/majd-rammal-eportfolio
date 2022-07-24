@@ -33,7 +33,7 @@ const Modal = () => {
 
     return (
         <div className="modal">
-            <div className="modal__contact">
+            <div className="modal__container">
                 <FontAwesomeIcon icon="fa-solid fa-x" className="modal__closer" onClick={contactClose}/>
                 <h3 className="modal__title">
                     Let's have a chat!

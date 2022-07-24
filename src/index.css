@@ -437,50 +437,6 @@ nav {
   margin-top: 40px;
 }
 
-.about__more--modal {
-  text-align: center;
-  background-color: white;
-  max-height: 600px;
-  border-radius: 20px;
-  padding: 70px 50px;
-  box-shadow: 1px 1px 5px black;
-  position: relative;
-  z-index: 10;
-  display: none;
-  transform: scale(1.1);
-  box-shadow: rgba(255, 0, 0, 0.4) 0px 5px, rgba(255, 0, 0, 0.3) 0px 10px, rgba(255, 0, 0, 0.2) 0px 15px, rgba(255, 0, 0, 0.1) 0px 20px, rgba(255, 0, 0, 0.05) 0px 25px;
-}
-
-.about__more--open .about__text {
-  display: none;
-} 
-
-.about__more--open .about__more--modal {
-  display: block;
-}
-
-.about__more--open .about__para {
-  color: rgb(63, 6, 6);
-  font-weight: bold;
-  font-size: 16px;
-  letter-spacing: 3px;
-}
-
-.fa-x {
-  position: absolute;
-  cursor: pointer;
-  color: rgb(63, 6, 6);
-  font-size: 24px;
-  position: fixed;
-  top: 25px;
-  right: 25px;
-  transition: all 300ms ease;
-}
-
-.fa-x:hover {
-  transform: scale(1.2);
-}
-
 /* STACK PAGE */
 
 @keyframes fadeIn {
@@ -514,6 +470,17 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  animation: slideUp 1000ms;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(400%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 .tech__wrapper {
@@ -632,7 +599,7 @@ nav {
   position: absolute;
   top: 50%;
   left: 20px;
-  transform: translateX(50%); 
+  transform: translateX(0%); 
   color: white;
   max-width: 550px;
   opacity: 0;
@@ -680,10 +647,10 @@ nav {
   transform: scale(1.05);
 }
 
-/* MODAL */
+/* MODAL & ABOUT MODAL */
 
-.modal {
-  position: absolute;
+.modal, .about__modal {
+  position: fixed;
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -698,13 +665,13 @@ nav {
   transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
 }
 
-.contact__open .modal{
+.contact__open .modal, .about__more--open .about__modal {
   z-index: 60;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
   visibility: visible;
 }
 
-.modal__contact {
+.modal__container, .about__modal--container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -717,7 +684,7 @@ nav {
   transform: scale(0);
 }
 
-.contact__open .modal__contact {
+.contact__open .modal__container, .about__more--open .about__modal--container {
   transform: scale(1);
 }
 
@@ -734,11 +701,20 @@ nav {
   text-align: center;
 }
 
+.about__modal--title {
+  margin-bottom: 32px;
+} 
+
 .modal__sub-title {
   margin: 24px 0 48px 0;
   font-size: 22px;
   letter-spacing: 1px;
   text-align: center;
+}
+
+.about__modal--sub-title {
+  font-size: 28px;
+  margin: 32px 0;
 }
 
 input, textarea {
@@ -849,13 +825,26 @@ input:focus, textarea:focus {
   color: white;
   font-size: 36px;
   z-index: 100;
+  cursor: pointer;
+  transition: all 300ms ease;
 }
 
-.contact__open nav, .contact__open section {
+.modal__closer:hover {
+  transform: scale(1.25);
+}
+
+.contact__open nav, .contact__open section, .about__more--open nav, .about__more--open section, .about__more--open .both__page {
   opacity: 0;
   visibility: hidden;
   transition: all 400ms;
 }
+
+.about__more--open #about {
+  opacity: 1;
+  visibility: visible;
+} 
+
+
 
 /* RESPONSIVENESS */
 
