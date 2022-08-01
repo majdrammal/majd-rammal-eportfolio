@@ -73,8 +73,7 @@ section {
 }
 
 .blue {
-  color: rgb(87, 87, 186);
-  filter: brightness(2);
+  color: #22c9eb;
 }
 
 /* HOME BACKGROUND ANIMATION */
