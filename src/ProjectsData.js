@@ -2,20 +2,20 @@ import blinker from './assets/blinker mockup.png'
 
 
 export const data = [
-    {img: blinker, 
-    title: "Car Sales Project", 
+    {img: "https://v-lawoffice.ro/construction.jpg", 
+    title: "Haroun Law Firm", 
     tech: "HTML, CSS, Javascript and React", 
-    desc: "Google In-Store is a platform allowing Google retail employees to report any issues with their store products. Once an issue is reported, it is posted to an API which populates a separate platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was the sole front-end developer of this application."
+    desc: "Currently designing and developing the Haroun Law Firm website."
     },
-    {img: blinker, 
-    title: "Movies Project", 
-    tech: "HTML, CSS, Javascript", 
-    desc: "Google In-Store is a platform allowing Google retail employees to report any issues with their store products. Once an issue is reported, it is posted to an API which populates a separate platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was the sole front-end developer of this application."
+    {img: "https://v-lawoffice.ro/construction.jpg", 
+    title: "AUB Phoenix Project", 
+    tech: "HTML, CSS, Javascript and React", 
+    desc: "Profits from the AUB Phoenix Project will be used to fund scolarship programs at the American University of Beirut. I am currently part of the team of AUB students responsible for creating the project's website."
     },
-    {img: blinker, 
-    title: "Happy Project", 
-    tech: "HTML, CSS, Javascript, Vue, Angular and React", 
-    desc: "Google In-Store is a platform allowing Google retail employees to report any issues with their store products. Once an issue is reported, it is posted to an API which populates a separate platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was the sole front-end developer of this application."
+    {img: "https://v-lawoffice.ro/construction.jpg", 
+    title: "House of Flicks", 
+    tech: "HTML, CSS, Javascript, React and Firebase", 
+    desc: "Similar to Letterboxd, House of Flicks is a social media platform for Film & TV show enthusiasts. This is a personal project."
     },
 ]
 

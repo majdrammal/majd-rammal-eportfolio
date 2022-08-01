@@ -16,7 +16,7 @@ const Project = ({ data, num }) => {
                     </h4>
                     <p className="project__description--para">{data[num].desc}</p>
                     <div className="project__description--links">
-                        <a href="#" className="project__description--link">
+                        <a href="/Projects" className="project__description--link">
                             <FontAwesomeIcon icon="fa-solid fa-link" /> 
                         </a>
                     </div>
