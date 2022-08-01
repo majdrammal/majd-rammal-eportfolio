@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Copyright from "./components/Copyright";
 import Nav from "./components/Nav";
 import NavBar from "./components/NavBar";
@@ -31,6 +31,7 @@ function App() {
         <Modal />
         <BackgroundAnimations />
         <Routes>
+                <Route path="*" element={<Navigate to="/" />} />
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/About" element={<About />} />
                 <Route exact path="/Stack" element={<Stack />} />

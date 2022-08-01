@@ -617,6 +617,11 @@ nav {
 .project__description--link {
   color: white;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.project__1 .project__description--link, .project__2 .project__description--link {
+  cursor: not-allowed;
 }
 
 .project__description--para {
