@@ -16,7 +16,8 @@ export const data = [
     {img: maintenance, 
     title: "House of Flicks", 
     tech: "HTML, CSS, Javascript, React and Firebase", 
-    desc: "Similar to Letterboxd, House of Flicks is a social media platform for Film & TV show enthusiasts. This is a personal project."
+    desc: "Similar to Letterboxd, House of Flicks is a social media platform for Film & TV show enthusiasts. This is a personal project.",
+    link: "https://project-flix.herokuapp.com/"
     },
 ]
 
