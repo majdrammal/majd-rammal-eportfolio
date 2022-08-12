@@ -44,8 +44,8 @@ const About = () => {
                     </h3>
                 </div>
             </div>
-            <NextPage text='Stack' />
-            <PrevPage text='Home' link='' />
+            <NextPage text='stack' />
+            <PrevPage text='home' link='' />
         </section>
     );
 }

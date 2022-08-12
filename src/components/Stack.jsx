@@ -21,8 +21,8 @@ const Stack = () => {
                     <Tech name="Firebase" img="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" />
                 </div>
             </div>
-            <NextPage text='Projects' />
-            <PrevPage text='About' link='About' />
+            <NextPage text='projects' />
+            <PrevPage text='about' link='about' />
         </section>
     );
 }

@@ -371,6 +371,7 @@ nav {
 .both__page--text {
   color: white;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .fa-circle-arrow-right, .fa-circle-arrow-left {

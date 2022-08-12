@@ -33,9 +33,9 @@ function App() {
         <Routes>
                 <Route path="*" element={<Navigate to="/" />} />
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/About" element={<About />} />
-                <Route exact path="/Stack" element={<Stack />} />
-                <Route exact path="/Projects" element={<Projects />} />
+                <Route exact path="/about" element={<About />} />
+                <Route exact path="/stack" element={<Stack />} />
+                <Route exact path="/projects" element={<Projects />} />
             </Routes>
         <Copyright />
       </div>

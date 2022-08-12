@@ -1,4 +1,5 @@
 import maintenance from './assets/maintenance.jpg'
+import flix from './assets/flix.PNG'
 
 
 export const data = [
@@ -13,8 +14,8 @@ export const data = [
     tech: "HTML, CSS, Javascript and React", 
     desc: "Profits from the AUB Phoenix Project will be used to fund scolarship programs at the American University of Beirut. I am currently part of the team of AUB students responsible for creating the project's website."
     },
-    {img: maintenance, 
-    title: "House of Flicks", 
+    {img: flix, 
+    title: "Flix", 
     tech: "HTML, CSS, Javascript, React and Firebase", 
     desc: "Similar to Letterboxd, House of Flicks is a social media platform for Film & TV show enthusiasts. This is a personal project.",
     link: "https://project-flix.herokuapp.com/"

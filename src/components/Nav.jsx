@@ -22,9 +22,9 @@ const Nav = ({ navBarOpen }) => {
             <div className="nav__right">
                 <ul className="nav__links">
                     <Link to="/" className="nav__link">Home</Link>
-                    <Link to="/About" className="nav__link">About</Link>
+                    <Link to="/about" className="nav__link">About</Link>
                     <Link to="/stack" className="nav__link">Tech Stack</Link>
-                    <Link to="/Projects" className="nav__link">Projects</Link>
+                    <Link to="/projects" className="nav__link">Projects</Link>
                     <button className="button nav__link--button" onClick={contactOpen}>Contact</button>
                 </ul>
                 <div className="nav__bar" onClick={barOpen}>

@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <NextPage text='About' />
+            <NextPage text='about' />
         </section>
     );
 }

@@ -33,7 +33,7 @@ const Projects = () => {
                     <hr className="project__hr project__hr--2" onClick = {() => projectOpen(2)}/>
                 </div>
             </div>
-            <PrevPage text="Stack" link="Stack" />
+            <PrevPage text="stack" link="stack" />
         </section>
     );
 }
