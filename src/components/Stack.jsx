@@ -5,6 +5,7 @@ import cssLogo from '../assets/css.webp'
 import jsLogo from '../assets/js.webp'
 import typescriptLogo from '../assets/typescript.webp'
 import reactLogo from '../assets/react.webp'
+import git from '../assets/git.png'
 import Tech from './ui/Tech';
 
 const Stack = () => {
@@ -16,9 +17,10 @@ const Stack = () => {
                     <Tech name="HTML" img="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" />
                     <Tech name="CSS" img={cssLogo} />
                     <Tech name="Javascript" img={jsLogo} />
-                    <Tech name="Typescript" img={typescriptLogo} />
                     <Tech name="React" img={reactLogo} />
+                    <Tech name="Typescript" img={typescriptLogo} />
                     <Tech name="Firebase" img="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" />
+                    <Tech name="Git" img={git} />
                 </div>
             </div>
             <NextPage text='projects' />
