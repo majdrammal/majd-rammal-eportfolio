@@ -1,5 +1,5 @@
 import maintenance from './assets/maintenance.jpg'
-import flix from './assets/flix.PNG'
+import flix from './assets/flix.jpg'
 
 
 export const data = [
