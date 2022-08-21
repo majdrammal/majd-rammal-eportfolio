@@ -7,6 +7,7 @@ import typescriptLogo from '../assets/typescript.webp'
 import reactLogo from '../assets/react.webp'
 import git from '../assets/git.png'
 import Tech from './ui/Tech';
+import sass from '../assets/sass.png'
 
 const Stack = () => {
     return (
@@ -21,6 +22,7 @@ const Stack = () => {
                     <Tech name="Typescript" img={typescriptLogo} />
                     <Tech name="Firebase" img="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" />
                     <Tech name="Git" img={git} />
+                    <Tech name="Sass" img={sass} />
                 </div>
             </div>
             <NextPage text='projects' />
