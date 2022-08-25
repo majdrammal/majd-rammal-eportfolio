@@ -17,7 +17,7 @@ export const data = [
     {img: flix, 
     title: "Flix", 
     tech: "HTML, CSS, Sass, Javascript, React and Firebase", 
-    desc: "Similar to Letterboxd, House of Flicks is a social media platform for Film & TV show enthusiasts. This is a personal project.",
+    desc: "A social media platform that allows users to search for their favorite movies, keep track of what they've watched, and connect with friends. This is a personal and non-commercial project.",
     link: "https://the-flix.herokuapp.com/"
     },
 ]
