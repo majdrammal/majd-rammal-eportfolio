@@ -6,13 +6,13 @@ export const data = [
     {img: maintenance, 
     title: "Haroun Law Firm", 
     tech: "HTML, CSS, Javascript and React", 
-    desc: "Currently designing and developing the Haroun Law Firm website.",
+    desc: "Solely designing and developing the Haroun Law Firm website.",
     link: "https://github.com/majdrammal/haroun-law-firm"
     },
     {img: maintenance, 
     title: "AUB Phoenix Project", 
-    tech: "HTML, CSS, Javascript and React", 
-    desc: "Profits from the AUB Phoenix Project will be used to fund scolarship programs at the American University of Beirut. I am currently part of the team of AUB students responsible for creating the project's website."
+    tech: "HTML, CSS, Javascript, React and Firebase", 
+    desc: "Profits from the AUB Phoenix Project will be used to fund scolarship programs at the American University of Beirut. I am currently working with a team of AUB students as the head Full-Stack developer responsible for creating the project's website."
     },
     {img: flix, 
     title: "Flix", 
@@ -20,5 +20,10 @@ export const data = [
     desc: "A social media platform that allows users to search for their favorite movies, keep track of what they've watched, and connect with friends. This is a personal and non-commercial project.",
     link: "https://the-flix.herokuapp.com/"
     },
+    {img: maintenance, 
+    title: "Reach", 
+    tech: "HTML, CSS, Sass, Javascript, React, React Native and Firebase", 
+    desc: "A multi-platform application that enables users to instant message and connect with each other through their computers or mobile devices.",
+    }
 ]
 

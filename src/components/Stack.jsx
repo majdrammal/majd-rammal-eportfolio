@@ -8,6 +8,7 @@ import reactLogo from '../assets/react.webp'
 import git from '../assets/git.png'
 import Tech from './ui/Tech';
 import sass from '../assets/sass.png'
+import native from '../assets/react native.png'
 
 const Stack = () => {
     return (

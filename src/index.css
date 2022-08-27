@@ -544,19 +544,19 @@ nav {
 
 /* PROJECT */
 
-.project__0, .project__1, .project__2 {
+.project__0, .project__1, .project__2, .project__3 {
   display: none;
 }
 
-.project__open--0 .project__0, .project__open--1 .project__1, .project__open--2 .project__2  {
+.project__open--0 .project__0, .project__open--1 .project__1, .project__open--2 .project__2, .project__open--3 .project__3  {
   display: block;
 }
 
-.project__open--0 .project__hr--0, .project__open--1 .project__hr--1, .project__open--2 .project__hr--2 {
+.project__open--0 .project__hr--0, .project__open--1 .project__hr--1, .project__open--2 .project__hr--2, .project__open--3 .project__hr--3 {
   background-color: white;
 }
 
-.project__hr--2 {
+.project__hr--3 {
   margin-right: 0 !important;
 }
 
@@ -628,7 +628,7 @@ nav {
   cursor: pointer;
 }
 
-.project__1 .project__description--link {
+.project__1 .project__description--link, .project__3 .project__description--link {
   cursor: not-allowed;
 }
 

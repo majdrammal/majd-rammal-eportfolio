@@ -26,11 +26,13 @@ const Projects = () => {
                     <Project data={data} num={0} />
                     <Project data={data} num={1} />
                     <Project data={data} num={2} />
+                    <Project data={data} num={3} />
                 </ul>
                 <div className="project__hr--list">
                     <hr className="project__hr project__hr--0" onClick = {() => projectOpen(0)} />
                     <hr className="project__hr project__hr--1" onClick = {() => projectOpen(1)}/>
                     <hr className="project__hr project__hr--2" onClick = {() => projectOpen(2)}/>
+                    <hr className="project__hr project__hr--3" onClick = {() => projectOpen(3)}/>
                 </div>
             </div>
             <PrevPage text="stack" link="stack" />
