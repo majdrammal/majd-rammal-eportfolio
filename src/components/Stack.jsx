@@ -9,6 +9,7 @@ import git from '../assets/git.png'
 import Tech from './ui/Tech';
 import sass from '../assets/sass.png'
 import bootstrap from '../assets/bootstrap.png'
+import jest from '../assets/jest.png'
 
 const Stack = () => {
     return (
@@ -25,6 +26,7 @@ const Stack = () => {
                     <Tech name="Git" img={git} />
                     <Tech name="Sass" img={sass} />
                     <Tech name="Bootstrap" img={bootstrap} />
+                    <Tech name="Jest" img={jest} />
                 </div>
             </div>
             <NextPage text='projects' />
