@@ -7,7 +7,7 @@ export const data = [
     title: "Haroun Law Firm", 
     tech: "HTML, CSS, Javascript and React", 
     desc: "Solely designing and developing the Haroun Law Firm website.",
-    link: "https://github.com/majdrammal/haroun-law-firm"
+    link: "https://github.com/majdrammal/haroun-law"
     },
     {img: maintenance, 
     title: "AUB Phoenix Project", 
