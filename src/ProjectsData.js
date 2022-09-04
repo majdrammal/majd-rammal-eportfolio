@@ -1,6 +1,7 @@
 import maintenance from './assets/maintenance.jpg'
 import flix from './assets/flix.jpg'
-import haroun from'./assets/haroun.jpg'
+import haroun from './assets/haroun.jpg'
+import portfolio from './assets/portfolio.jpg'
 
 export const data = [
     {img: haroun, 
@@ -24,6 +25,11 @@ export const data = [
     title: "Reach", 
     tech: "HTML, CSS, Sass, JavaScript, React, React Native and Firebase", 
     desc: "A multi-platform application that enables users to instant message and connect with each other through their computers or mobile devices.",
+    },
+    {img: portfolio, 
+    title: "Personal Website", 
+    tech: "HTML, CSS, JavaScript and React",
+    link: "https://www.majdrammal.com"
     }
 ]
 
