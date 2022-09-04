@@ -1,13 +1,13 @@
 import maintenance from './assets/maintenance.jpg'
 import flix from './assets/flix.jpg'
-
+import haroun from'./assets/haroun.jpg'
 
 export const data = [
-    {img: maintenance, 
+    {img: haroun, 
     title: "Haroun Law Firm", 
     tech: "HTML, CSS, Javascript and React", 
     desc: "Solely designing and developing the Haroun Law Firm website.",
-    link: "https://github.com/majdrammal/haroun-law"
+    link: "https://haroun-law-firm.herokuapp.com/"
     },
     {img: maintenance, 
     title: "AUB Phoenix Project", 
