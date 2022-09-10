@@ -23,7 +23,7 @@ export const data = [
     },
     {img: maintenance, 
     title: "Reach", 
-    tech: "HTML, CSS, Sass, JavaScript, React, React Native and Firebase", 
+    tech: "HTML, TypeScript, React, React Native and Firebase", 
     desc: "A multi-platform application that enables users to instant message and connect with each other through their computers or mobile devices.",
     },
     {img: portfolio, 
