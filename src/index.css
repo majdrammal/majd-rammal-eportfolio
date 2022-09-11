@@ -543,19 +543,19 @@ nav {
 
 /* PROJECT */
 
-.project__0, .project__1, .project__2, .project__3, .project__4 {
+.project__0, .project__1, .project__2, .project__3, .project__4, .project__5 {
   display: none;
 }
 
-.project__open--0 .project__0, .project__open--1 .project__1, .project__open--2 .project__2, .project__open--3 .project__3, .project__open--4 .project__4  {
+.project__open--0 .project__0, .project__open--1 .project__1, .project__open--2 .project__2, .project__open--3 .project__3, .project__open--4 .project__4, .project__open--5 .project__5  {
   display: block;
 }
 
-.project__open--0 .project__hr--0, .project__open--1 .project__hr--1, .project__open--2 .project__hr--2, .project__open--3 .project__hr--3, .project__open--4 .project__hr--4 {
+.project__open--0 .project__hr--0, .project__open--1 .project__hr--1, .project__open--2 .project__hr--2, .project__open--3 .project__hr--3, .project__open--4 .project__hr--4, .project__open--5 .project__hr--5 {
   background-color: white;
 }
 
-.project__hr--4 {
+.project__hr--5 {
   margin-right: 0 !important;
 }
 
