@@ -1,7 +1,8 @@
 import React from 'react';
+import { data } from '../../ProjectsData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Project = ({ data, num }) => {
+const Project = ({ num }) => {
     return document.getElementsByClassName(".project__list").innerHTML = 
         <li className={`project__${num}`}>
             <div className="project__wrapper">

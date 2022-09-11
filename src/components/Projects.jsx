@@ -23,12 +23,12 @@ const Projects = () => {
                     Here are my <span className="blue">Projects</span>
                 </h1>
                 <ul className="project__list">
-                    <Project data={data} num={0} />
-                    <Project data={data} num={1} />
-                    <Project data={data} num={2} />
-                    <Project data={data} num={3} />
-                    <Project data={data} num={4} />
-                    <Project data={data} num={5} />
+                    <Project num={0} />
+                    <Project num={1} />
+                    <Project num={2} />
+                    <Project num={3} />
+                    <Project num={4} />
+                    <Project num={5} />
                 </ul>
                 <div className="project__hr--list">
                     <hr className="project__hr project__hr--0" onClick = {() => projectOpen(0)} />
