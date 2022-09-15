@@ -28,8 +28,8 @@ export const data = [
     {
         img: ssea,
         title: 'AUB Small Businesses',
-        tech: 'HTML, CSS, JavaScript and React',
-        desc: "Solely designing and developing an AUB-backed website that showcases AUB students' small businesses.",
+        tech: 'HTML, CSS, JavaScript, Firebase and React',
+        desc: "Solely designing and developing an AUB-backed website that showcases AUB students' small businesses. Students can fill in the form and have their business automatically added to the website.",
         link:"https://ssea-small-businesses.herokuapp.com/"
     },
     {
