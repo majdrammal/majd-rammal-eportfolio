@@ -2,6 +2,7 @@ import maintenance from './assets/maintenance.jpg'
 import flix from './assets/flix.jpg'
 import haroun from './assets/haroun.jpg'
 import portfolio from './assets/portfolio.jpg'
+import ssea from './assets/ssea.jpg'
 
 export const data = [
     {
@@ -25,11 +26,11 @@ export const data = [
         link: "https://the-flix.herokuapp.com/"
     },
     {
-        img: maintenance,
+        img: ssea,
         title: 'AUB Small Businesses',
         tech: 'HTML, CSS, JavaScript and React',
         desc: "Solely designing and developing an AUB-backed website that showcases AUB students' small businesses.",
-        link:"https://github.com/majdrammal/small-businesses"
+        link:"https://ssea-small-businesses.herokuapp.com/"
     },
     {
         img: maintenance, 

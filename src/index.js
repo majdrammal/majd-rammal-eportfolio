@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faFilePdf, faCircleArrowRight, faCircleArrowLeft, faX, faLink, faSpinner } from '@fortawesome/free-solid-svg-icons';
+import { faFilePdf, faCircleArrowRight, faCircleArrowLeft, faX, faLink, faSpinner, faForward, faBackward } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faFilePdf, faCircleArrowRight, faCircleArrowLeft, faX, faLink, faSpinner)
+library.add(faFilePdf, faCircleArrowRight, faCircleArrowLeft, faX, faLink, faSpinner, faForward, faBackward)
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")

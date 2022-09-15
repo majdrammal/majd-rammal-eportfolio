@@ -551,12 +551,19 @@ nav {
   display: block;
 }
 
-.project__open--0 .project__hr--0, .project__open--1 .project__hr--1, .project__open--2 .project__hr--2, .project__open--3 .project__hr--3, .project__open--4 .project__hr--4, .project__open--5 .project__hr--5 {
+/* .project__btn {
   background-color: white;
-}
+  border: none;
+  color: rgba(56, 12, 12, 0.462);
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+} */
 
-.project__hr--5 {
-  margin-right: 0 !important;
+.project__btn:first-child {
+  margin-right: 20px;
 }
 
 .project__wrapper {
@@ -627,7 +634,7 @@ nav {
   cursor: pointer;
 }
 
-.project__1 .project__description--link, .project__3 .project__description--link {
+.project__4 .project__description--link, .project__5 .project__description--link {
   cursor: not-allowed;
 }
 
@@ -637,25 +644,30 @@ nav {
 }
 
 .project__hr--list {
+  width: 100%;
+  padding: 10px 10px 0 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.project__hr {
+.fa-backward, .fa-forward {
+  font-size: 40px;
   cursor: pointer;
-  height: 20px;
-  width: 40px;
-  border: 1px solid white;
-  border-radius: 20px;
-  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
-  background-color: transparent;
-  margin: 20px 40px 0 0;
   transition: all 300ms ease;
+  color: rgba(255, 255, 255, 0.692);
 }
 
-.project__hr:hover {
-  transform: scale(1.05);
+.fa-backward:hover, .fa-forward:hover {
+  color: white;
+}
+
+.project__index {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.428)
 }
 
 /* MODAL & ABOUT MODAL */

@@ -22,6 +22,7 @@ const Project = ({ num }) => {
                         </a>
                     </div>
                 </div>
+                <p className="project__index">{`${num+1}/${data.length}`}</p>
             </div>
         </li>
 }
