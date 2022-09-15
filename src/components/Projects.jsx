@@ -50,6 +50,7 @@ const Projects = () => {
                     <Project num={3} />
                     <Project num={4} />
                     <Project num={5} />
+                    <Project num={6} />
                 </ul>
                 <div className="project__hr--list">
                     <FontAwesomeIcon icon="fa-solid fa-backward" onClick = {() => projectPrev()}/>

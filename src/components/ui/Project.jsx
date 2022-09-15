@@ -17,9 +17,17 @@ const Project = ({ num }) => {
                     </h4>
                     <p className="project__description--para">{data[num].desc}</p>
                     <div className="project__description--links">
-                        <a href={data[num].link} className="project__description--link" target="_blank">
-                            <FontAwesomeIcon icon="fa-solid fa-link" /> 
-                        </a>
+                        {
+                            data[num].link === "" ? (
+                                <a style={{cursor: "not-allowed"}} href="" className="project__description--link">
+                                    <FontAwesomeIcon icon="fa-solid fa-link" /> 
+                                </a>
+                            ) : (
+                                <a href={data[num].link} className="project__description--link" target="_blank">
+                                    <FontAwesomeIcon icon="fa-solid fa-link" /> 
+                                </a>
+                            )
+                        }
                     </div>
                 </div>
                 <p className="project__index">{`${num+1}/${data.length}`}</p>
