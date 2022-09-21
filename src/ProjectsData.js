@@ -4,6 +4,7 @@ import haroun from './assets/haroun.jpg'
 import portfolio from './assets/portfolio.jpg'
 import ssea from './assets/ssea.jpg'
 import trux from './assets/trux.jpg'
+import solid from './assets/solid.jpg'
 
 export const data = [
     {
@@ -38,6 +39,13 @@ export const data = [
         title: 'Trux Logistics',
         tech: 'HTML, CSS, JavaScript and React',
         desc: "Solely designing and developing a website for Trux Logistics, the leading transportation company in the Democratic Republic of Congo.",
+        link:""
+    },
+    {
+        img: solid,
+        title: 'Solid Contracting',
+        tech: 'HTML, CSS, Sass, JavaScript and React',
+        desc: "Solely designing and developing a website for Solid Contracting.",
         link:""
     },
     {

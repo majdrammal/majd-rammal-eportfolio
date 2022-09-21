@@ -543,11 +543,11 @@ nav {
 
 /* PROJECT */
 
-.project__0, .project__1, .project__2, .project__3, .project__4, .project__5, .project__6 {
+.project__0, .project__1, .project__2, .project__3, .project__4, .project__5, .project__6, .project__7 {
   display: none;
 }
 
-.project__open--0 .project__0, .project__open--1 .project__1, .project__open--2 .project__2, .project__open--3 .project__3, .project__open--4 .project__4, .project__open--5 .project__5, .project__open--6 .project__6  {
+.project__open--0 .project__0, .project__open--1 .project__1, .project__open--2 .project__2, .project__open--3 .project__3, .project__open--4 .project__4, .project__open--5 .project__5, .project__open--6 .project__6, .project__open--7 .project__7  {
   display: block;
 }
 
