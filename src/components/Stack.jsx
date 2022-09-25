@@ -10,6 +10,8 @@ import Tech from './ui/Tech';
 import sass from '../assets/sass.png'
 import bootstrap from '../assets/bootstrap.png'
 import jest from '../assets/jest.png'
+import flask from '../assets/flask.png'
+import mysql from '../assets/mysql.png'
 
 const Stack = () => {
     return (
@@ -27,6 +29,8 @@ const Stack = () => {
                     <Tech name="Sass" img={sass} />
                     <Tech name="Bootstrap" img={bootstrap} />
                     <Tech name="Jest" img={jest} />
+                    <Tech name="Flask" img={flask} />
+                    <Tech name="MySql" img={mysql} />
                 </div>
             </div>
             <NextPage text='projects' />
