@@ -5,6 +5,7 @@ import portfolio from './assets/portfolio.jpg'
 import ssea from './assets/ssea.jpg'
 import trux from './assets/trux.jpg'
 import solid from './assets/solid.jpg'
+import lostpets from './assets/lostpets.jpg'
 
 export const data = [
     {
@@ -56,11 +57,11 @@ export const data = [
         link:""
     },
     {
-        img: maintenance, 
-        title: "Reach", 
-        tech: "HTML, TypeScript, React, React Native and Firebase", 
-        desc: "A multi-platform application that enables users to instant message and connect with each other through their computers or mobile devices.",
-        link:""
+        img: lostpets, 
+        title: "Lost & Found Pets", 
+        tech: "HTML, CSS, JavaScript, React, Flask and MySQL", 
+        desc: "Currently creating a platform that helps Lebanese people find their lost cats and dogs, as an alternative to having to search through Facebook groups.",
+        link:"https://github.com/majdrammal/lost-and-found-pets"
     }
 ]
 

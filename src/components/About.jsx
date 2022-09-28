@@ -40,7 +40,7 @@ const About = () => {
                         I'm a 21 year-old Lebanese Computer Engineering major with a passion for developing websites. I'm currently a fourth-year student at the American University of Beirut. 
                     </h3>
                     <h3 className="modal__sub-title about__modal--sub-title">
-                        I look forward to becoming a Frontend Software Engineer and solving difficult engineering problems every day with a team of like-minded individuals.
+                        I look forward to becoming a Full-Stack Software Engineer and solving difficult engineering problems every day with a team of like-minded individuals.
                     </h3>
                 </div>
             </div>
