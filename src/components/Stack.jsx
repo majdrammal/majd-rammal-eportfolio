@@ -12,6 +12,7 @@ import bootstrap from '../assets/bootstrap.png'
 import jest from '../assets/jest.png'
 import flask from '../assets/flask.png'
 import mysql from '../assets/mysql.png'
+import postgresql from '../assets/postgresql.png'
 
 const Stack = () => {
     return (
@@ -31,6 +32,7 @@ const Stack = () => {
                     <Tech name="Jest" img={jest} />
                     <Tech name="Flask" img={flask} />
                     <Tech name="MySql" img={mysql} />
+                    <Tech name="PostgreSql" img={postgresql} />
                 </div>
             </div>
             <NextPage text='projects' />

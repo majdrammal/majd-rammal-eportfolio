@@ -38,7 +38,7 @@ export const data = [
     {
         img: lostpets, 
         title: "Lost & Found Pets", 
-        tech: "HTML, CSS, JavaScript, React, Flask and MySQL", 
+        tech: "HTML, CSS, JavaScript, React, Flask and PostgreSQL", 
         desc: "Currently creating a platform that helps Lebanese people find their lost cats and dogs, as an alternative to having to search through Facebook groups.",
         link:"https://lostandfoundpetslb.herokuapp.com/"
     },

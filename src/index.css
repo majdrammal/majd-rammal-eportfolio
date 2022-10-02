@@ -493,7 +493,7 @@ nav {
 
 .tech__wrapper:nth-child(11) .tech__img {
   border-radius: 50%;
-  filter: invert(1);
+  filter: invert(1);  
 }
 
 .tech__img {
