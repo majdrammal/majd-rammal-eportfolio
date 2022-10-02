@@ -36,6 +36,13 @@ export const data = [
         link:"https://promotemybusiness.herokuapp.com/"
     },
     {
+        img: lostpets, 
+        title: "Lost & Found Pets", 
+        tech: "HTML, CSS, JavaScript, React, Flask and MySQL", 
+        desc: "Currently creating a platform that helps Lebanese people find their lost cats and dogs, as an alternative to having to search through Facebook groups.",
+        link:"https://lostandfoundpetslb.herokuapp.com/"
+    },
+    {
         img: trux,
         title: 'Trux Logistics',
         tech: 'HTML, CSS, JavaScript and React',
@@ -56,12 +63,5 @@ export const data = [
         desc: "Profits from the AUB Phoenix Project will be used to fund scolarship programs at the American University of Beirut. I am currently working with a team of AUB students as the head Full-Stack developer responsible for creating the project's website.",
         link:""
     },
-    {
-        img: lostpets, 
-        title: "Lost & Found Pets", 
-        tech: "HTML, CSS, JavaScript, React, Flask and MySQL", 
-        desc: "Currently creating a platform that helps Lebanese people find their lost cats and dogs, as an alternative to having to search through Facebook groups.",
-        link:"https://github.com/majdrammal/lost-and-found-pets"
-    }
 ]
 
