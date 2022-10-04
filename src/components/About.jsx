@@ -21,7 +21,7 @@ const About = () => {
                     <h1 className="about__title">About Me</h1>
                     <hr className="main__hr about__hr"></hr>
                     <p className="about__para">
-                        I'm a 21 year-old Lebanese Software Engineering major with a 
+                        I'm a 21 year-old Lebanese Computer Engineering major with a 
                         passion for developing websites. 
                     </p>
                     <button className="button about__more" onClick={moreAboutMe}>Tell Me More</button>

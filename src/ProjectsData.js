@@ -30,16 +30,16 @@ export const data = [
     },
     {
         img: ssea,
-        title: 'AUB Small Businesses',
+        title: 'Promote My Business',
         tech: 'HTML, CSS, JavaScript, Firebase and React',
-        desc: "Solely designing and developing an AUB-backed website that showcases AUB students' small businesses. Students can fill in the form and have their business automatically added to the website.",
+        desc: "Solely designed and developed an AUB club backed website that showcases and promotes AUB students' small businesses.",
         link:"https://promotemybusiness.herokuapp.com/"
     },
     {
         img: lostpets, 
         title: "Lost & Found Pets", 
         tech: "HTML, CSS, JavaScript, React, Flask and PostgreSQL", 
-        desc: "Currently creating a platform that helps Lebanese people find their lost cats and dogs, as an alternative to having to search through Facebook groups.",
+        desc: "Created a platform that helps Lebanese people find their lost cats and dogs, as an alternative to having to search through Facebook groups.",
         link:"https://lostandfoundpetslb.herokuapp.com/"
     },
     {
@@ -54,7 +54,7 @@ export const data = [
         title: 'Solid Contracting',
         tech: 'HTML, CSS, Sass, JavaScript and React',
         desc: "Solely designing and developing a website for Solid Contracting.",
-        link:""
+        link:"https://solid-contracting.herokuapp.com/"
     },
     {
         img: maintenance, 
