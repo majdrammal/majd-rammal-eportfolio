@@ -500,7 +500,7 @@ nav {
 
 @keyframes slideUp {
   0% {
-    transform: translateY(400%);
+    transform: translateY(100%);
   }
 
   100% {
@@ -648,7 +648,7 @@ nav {
   .project__description {
     left: 10px;
   }
-  
+
   .project__description--title {
     letter-spacing: normal;
     font-size: 24px;
