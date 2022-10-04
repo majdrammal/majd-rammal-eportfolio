@@ -926,8 +926,23 @@ input:focus, textarea:focus {
     display: block;
   }
 
-  .nav__links, .both__page, .project__description--sub-title, .project__description--para {
+  .nav__links, .both__page--text, .project__description--sub-title, .project__description--para {
     display: none;
+  }
+
+  .both__page {
+    bottom: -120px;
+  }
+
+  .next__page {
+    right: 20px;
+  }
+
+  .prev__page {
+    left: 20px;
+  }
+
+  .fa-circle-arrow-left, .fa-circle-arrow-right {
   }
 
   .project__description--title {
