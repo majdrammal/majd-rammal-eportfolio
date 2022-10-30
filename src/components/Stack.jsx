@@ -13,6 +13,7 @@ import jest from '../assets/jest.png'
 import flask from '../assets/flask.png'
 import mysql from '../assets/mysql.png'
 import postgresql from '../assets/postgresql.png'
+import express from '../assets/express.png'
 
 const Stack = () => {
     return (
@@ -24,15 +25,16 @@ const Stack = () => {
                     <Tech name="CSS" img={cssLogo} />
                     <Tech name="Javascript" img={jsLogo} />
                     <Tech name="React" img={reactLogo} />
+                    <Tech name="Express" img={express} />
+                    <Tech name="Flask" img={flask} />
                     <Tech name="Typescript" img={typescriptLogo} />
                     <Tech name="Firebase" img="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" />
-                    <Tech name="Git" img={git} />
-                    <Tech name="Sass" img={sass} />
-                    <Tech name="Bootstrap" img={bootstrap} />
-                    <Tech name="Jest" img={jest} />
-                    <Tech name="Flask" img={flask} />
                     <Tech name="MySql" img={mysql} />
                     <Tech name="PostgreSql" img={postgresql} />
+                    <Tech name="Sass" img={sass} />
+                    <Tech name="Bootstrap" img={bootstrap} />
+                    <Tech name="Git" img={git} />
+                    <Tech name="Jest" img={jest} />
                 </div>
             </div>
             <NextPage text='projects' />

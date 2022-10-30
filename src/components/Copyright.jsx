@@ -7,7 +7,7 @@ const Copyright = () => {
     return (
         <div className="copyright__wrapper">
         <div className="copyright__upper">
-            <p className="copyright">Built With</p>
+            <p className="copyright">Built With Love and</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" className="copyright__logo"/>
             <img src={cssLogo} alt="" className="copyright__logo"/>
             <img src={jsLogo} alt="" className="copyright__logo"/>
