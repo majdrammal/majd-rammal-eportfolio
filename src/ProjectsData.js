@@ -6,6 +6,7 @@ import ssea from './assets/ssea.jpg'
 import trux from './assets/trux.jpg'
 import solid from './assets/solid.jpg'
 import lostpets from './assets/lostpets.jpg'
+import feechTV from './assets/feechTV.jpg'
 
 export const data = [
     {
@@ -55,6 +56,13 @@ export const data = [
         tech: 'HTML, CSS, Sass, JavaScript and React',
         desc: "Solely designing and developing a website for Solid Contracting.",
         link:"https://solid-contracting.herokuapp.com/"
+    },
+    {
+        img: feechTV,
+        title: 'FeechTV',
+        tech: 'HTML, CSS, JavaScript, React, Express and MySQL',
+        desc: "No description.",
+        link:""
     },
     {
         img: maintenance, 
