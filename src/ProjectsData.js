@@ -47,19 +47,19 @@ export const data = [
         img: trux,
         title: 'Trux Logistics',
         tech: 'HTML, CSS, JavaScript and React',
-        desc: "Solely designing and developing a website for Trux Logistics, the leading transportation company in the Democratic Republic of Congo.",
+        desc: "Solely designed and developed a website for Trux Logistics, the leading transportation company in the Democratic Republic of Congo.",
         link:""
     },
     {
         img: solid,
-        title: 'Solid Contracting',
+        title: 'Solid Trade',
         tech: 'HTML, CSS, Sass, JavaScript and React',
-        desc: "Solely designing and developing a website for Solid Contracting.",
-        link:"https://solid-contracting.herokuapp.com/"
+        desc: "Solely designed and developed a website for Solid Trade.",
+        link:"https://www.solidtrade.me/"
     },
     {
         img: feechTV,
-        title: 'FeechTV',
+        title: 'watchroom',
         tech: 'HTML, CSS, JavaScript, React, Express and MySQL',
         desc: "No description.",
         link:""

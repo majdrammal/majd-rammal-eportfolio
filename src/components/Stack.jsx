@@ -14,6 +14,7 @@ import flask from '../assets/flask.png'
 import mysql from '../assets/mysql.png'
 import postgresql from '../assets/postgresql.png'
 import express from '../assets/express.png'
+import dotnetcore from '../assets/netcore.png'
 
 const Stack = () => {
     return (
@@ -35,6 +36,7 @@ const Stack = () => {
                     <Tech name="Bootstrap" img={bootstrap} />
                     <Tech name="Git" img={git} />
                     <Tech name="Jest" img={jest} />
+                    <Tech name=".NET Core" img={dotnetcore} />
                 </div>
             </div>
             <NextPage text='projects' />
